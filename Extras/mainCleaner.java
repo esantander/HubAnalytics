@@ -1,6 +1,10 @@
 import java.io.*;
 import java.util.*;
 
+/*
+*This method reads STATxx.txt files in a directory and determines if they contain negative lines in the "Total Lines" field.
+*It is critical to detect and delete these files, as they interefere fatally with the performance of getStats.py.
+**/
 public class main {
 	
 	public static void main (String[] args) throws Exception{
