@@ -60,4 +60,9 @@ Final product: .csv file with aggregated data from all STAT files in directory
 * getStats.py takes the address of a directory with STATxxx.txt files and outputs a .csv file
 
 
+##Additional Notes
+
+#### Known Issues
+* Gitstats.py can produce STATxxx.txt files with negative total lines of code. mainCleaner.java in Extras can detect these, and they should be removed from the directory.
+
 
