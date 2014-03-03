@@ -1,7 +1,7 @@
 HubAnalytics
 ============
 
-Toolset for massive analysis of Github projects
+Toolset for experimental analysis of Github projects
 
 The final product is a .csv file containing the commit statistics on an arbitrary amount of Github Projects.
 
